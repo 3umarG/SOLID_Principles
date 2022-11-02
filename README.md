@@ -1,0 +1,10 @@
+# SOLID Principles
+
+## What's SOLID Principles ?
+The SOLID Principles are five principles of Object-Oriented class design. They are a set of rules and best practices to follow while designing a class structure.
+
+## Why we need SOLID ?
+These five principles help us understand the need for certain design patterns and software architecture in general.
+
+## What does SOLID refer to ??
+![SOLID Priciples](https://www.technologylogs.com/wp-content/uploads/2020/12/Solid_principle.jpg)
