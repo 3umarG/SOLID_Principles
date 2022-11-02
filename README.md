@@ -12,4 +12,4 @@ These five principles help us understand the need for certain design patterns an
 ## 1-Single Responsibility Principle -S.R.P- :
 Every class should have only one reason to modify on it . "Uncle Bob"
 
-![S.R.P Model](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40learnstuff.io%2Fsingle-responsibility-principle-ad3ae3e264bb&psig=AOvVaw0BWiDJBjptwblDI1bdnDFQ&ust=1667510754137000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCODcmoi2kPsCFQAAAAAdAAAAABAE)
+![S.R.P Model](https://miro.medium.com/max/1400/1*UhvaCg9qOCYZyDJZh180hQ.png)
