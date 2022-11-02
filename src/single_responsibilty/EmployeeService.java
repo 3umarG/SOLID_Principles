@@ -9,17 +9,22 @@ public class EmployeeService {
     // And it's not one of the main functions of Employee Service
 
     // SOLUTION : put every method in separate Class and use it when needs ...
+    EmailService emailService = new EmailService();
 
 
-    public void employeeRegistration(int empId){
+    public void employeeRegistration(int empId) {
         // TODO : Add Employee
+        // ...
+        // Do All Works , then send email to employee ..
+        emailService.sendEmail();
+
+
+        // Now you have only one reason to modify this class
+        // and the function of send email is encapsulated into separated class to reuse ...
     }
 
-    public void employeeDiscountRate(String empPosition){
+    public void employeeDiscountRate(String empPosition) {
         // TODO : Calculate Employee Discount Rate based on his Position
     }
 
-    public void sendEmail(){
-        // TODO : Send Email to Employee
-    }
 }
