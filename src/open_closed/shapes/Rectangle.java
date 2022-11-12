@@ -1,6 +1,6 @@
 package open_closed.shapes;
 
-public class Rectangle {
+public class Rectangle extends Shape {
     private int width;
     private int height;
 
@@ -23,5 +23,10 @@ public class Rectangle {
 
     public void setHeight(int height) {
         this.height = height;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println(this.height * this.width);
     }
 }

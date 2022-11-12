@@ -1,6 +1,6 @@
 package open_closed.shapes;
 
-public class Square {
+public class Square extends Shape{
     private int side;
 
     public Square(int side) {
@@ -13,5 +13,10 @@ public class Square {
 
     public void setSide(int side) {
         this.side = side;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println(this.side*this.side);
     }
 }
