@@ -1,6 +1,6 @@
 package liskov.posts;
 
-public class Post {
+public class Post implements CreatePost {
     PostDatabase postDatabase ;
     String content ;
 
@@ -9,8 +9,10 @@ public class Post {
         this.content = content;
     }
 
-    public String createPost(){
-        return postDatabase.addOriginalPost(this.content);
+
+    @Override
+    public String createPost() {
+        return this.postDatabase.addOriginalPost(this.content);
     }
 }
 
