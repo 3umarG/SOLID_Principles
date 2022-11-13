@@ -9,9 +9,10 @@ public class Test {
         posts.add(new Post("Original Post"));
         posts.add(new MentionPost("Mention Post"));
         posts.add(new LinkedPost("Linked Post"));
+        posts.add(new HashtagPost("Tagged Post"));
 
-        // TODO: here all these posts are from different types of posts.
-        // TODO: when try to post function it always do the base createPost() function.
+        // I solved this problem by use one base function createPost()
+        // and override this fun. from every class I create
         for (Post post : posts){
             System.out.println(post.createPost());
         }

@@ -6,7 +6,8 @@ public class MentionPost extends Post {
         super(content);
     }
 
-    public String createMentionPost() {
-        return postDatabase.addMentionPost(this.content);
+    @Override
+    public String createPost() {
+        return this.postDatabase.addMentionPost(this.content);
     }
 }

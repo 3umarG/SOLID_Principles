@@ -6,7 +6,8 @@ public class LinkedPost extends Post{
         super(content);
     }
 
-    public String createLinkedPost(){
+    @Override
+    public String createPost() {
         return super.postDatabase.addLinkedPost(this.content);
     }
 }
