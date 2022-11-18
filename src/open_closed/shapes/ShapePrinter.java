@@ -7,5 +7,15 @@ public class ShapePrinter {
     // TODO: all i will do is to extends the abstract class from the new shape class .
     public void draw(Shape shape) {
        shape.draw();
+
+
+        // This is Bad Solution and
+//            if (shape instanceof Circle){
+//                // ........
+//            }else if (shape instanceof Rectangle){
+//                //......
+//            }else if (shape instanceof Square){
+//                // ........
+//            }
     }
 }
