@@ -92,3 +92,14 @@ Most of time we apply this principle with Open Close Principle , because they ar
   - The other class -mostly- the Low Level Class will inherit from this abstract class and impement its methods.
 By using this approach we separate the high level code away from low level code and make our project modules independant from each other.
 
+
+## Resources for study:
+
+ - [Freecodecamp Article](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
+ - [Semi Colon Academy Introduction Video](https://youtu.be/I6FBMVhmhTo)
+ - [Eng Mohammed Reda Playlist](https://youtube.com/playlist?list=PLnqAlQ9hFYdflFSS4NigVB7aSoYPNwHTL)
+ - [Eng Omar Ahmed Playlist **Recommended**](https://youtube.com/playlist?list=PLwWuxCLlF_uevri_OpofVLXkRRFnZ7TSV)
+ - Head First OO Book **highly recommended**
+
+
+
