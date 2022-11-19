@@ -1,6 +1,6 @@
 # SOLID Principles
 
-## Table of Contents :
+##### Table of Contents  :
   - [What are SOLID Principles ?](#solid_definetion)
   - [Background](#bg)
 
