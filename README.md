@@ -32,3 +32,19 @@ Every class should have only one reason to modify on it . "Uncle Bob"
 
 ![S.R.P Model](https://miro.medium.com/max/1400/1*UhvaCg9qOCYZyDJZh180hQ.png)
 
+
+
+
+## 2- Open Closed Principle -OCP- :
+The Open-Closed Principle requires that classes should be open for extension and closed to modification.
+<br/>
+Modification means changing the code of an existing class, and extension means adding new functionality.
+
+
+#### What this principle wants to say ?
+We should be able to add new functionality without touching the existing code for the class. This is because whenever we modify the existing code, we are taking the risk of creating potential bugs. So we should avoid touching the tested and reliable (mostly) production code if possible.
+
+#### How can I implement this principle in my code ?
+  - Abstraction : abstract class Or interfaces.
+  - Polymorphism.
+![Open Close Principle Simulation](https://miro.medium.com/max/372/1*gZcKz9sqrZeaIA0NAfY3Rg.png)
