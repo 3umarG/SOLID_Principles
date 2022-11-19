@@ -8,6 +8,7 @@ The SOLID principles were first introduced by the famous Computer Scientist Robe
 
 ## Why we need SOLID ?
 These five principles help us understand the need for certain design patterns and software architecture in general.
+<br/>
 "To create understandable, readable, and testable code that many developers can collaboratively work on."
 
 ## What does SOLID refer to ??
