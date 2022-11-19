@@ -49,3 +49,17 @@ We should be able to add new functionality without touching the existing code fo
   - Polymorphism.
 
 ![Open Close Principle Simulation](https://miro.medium.com/max/372/1*gZcKz9sqrZeaIA0NAfY3Rg.png)
+
+
+
+
+## Liskov Substitution Principle:
+The Liskov Substitution Principle states that subclasses should be substitutable for their base classes.
+<br/>
+This means that, given that class B is a subclass of class A, we should be able to pass an object of class B to any method that expects an object of class A and the method should not give any weird output in that case.
+
+
+#### Example :
+![Liskov Substitution 1](https://miro.medium.com/max/1200/1*iV_TeHoEDE0TwhQEFj2fxA.png)
+<br/>
+
