@@ -1,8 +1,15 @@
 # SOLID Principles
 
+## Table of Contents :
+  - [What are SOLID Principles ?](#solid_definetion)
+  - [Background](#bg)
+
+<a name="solid_definetion"/>
 ## What are SOLID Principles ?
 The SOLID Principles are five principles of Object-Oriented class design. They are a set of rules and best practices to follow while designing a class structure.
 <br/>
+
+<a name="bg"/>
 ## Background:
 The SOLID principles were first introduced by the famous Computer Scientist Robert J. Martin (a.k.a Uncle Bob) in his paper in 2000. But the SOLID acronym was introduced later by Michael Feathers.
 <br/>
