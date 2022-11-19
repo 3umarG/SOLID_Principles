@@ -63,3 +63,32 @@ This means that, given that class B is a subclass of class A, we should be able 
 ![Liskov Substitution 1](https://miro.medium.com/max/1200/1*iV_TeHoEDE0TwhQEFj2fxA.png)
 <br/>
 
+
+
+## Interface Segregation Principle
+Segregation means keeping things separated, and the Interface Segregation Principle is about separating the interfaces.
+<br/>
+The principle states that many client-specific interfaces are better than one general-purpose interface. Clients should not be forced to implement a function they do no need.
+
+
+#### Examples
+![Interface Segregation 1](https://blog.ndepend.com/wp-content/uploads/ISP.png)
+
+
+
+## Dependency Inversion Principle
+The Dependency Inversion principle states that our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.
+<br/>
+Most of time we apply this principle with Open Close Principle , because they are related to each of them.
+
+
+#### Example :
+![DI Example](https://media-exp1.licdn.com/dms/image/C5612AQFFFjbboRXvhw/article-cover_image-shrink_600_2000/0/1647405323448?e=2147483647&v=beta&t=RAPpylzq5sBfKXy4kwiPZlI2DUzJktln3xQQmEQW6CI)
+
+#### how to implement this priciple in your code ?
+  - By adding new layer,module,or class and make it abstract "dosen't contain any concrete code".
+  - Make this class mutual between high level module and low level module.
+  - One Class -mostly- the High Level Class will contain this abstract class as Data Member on it.
+  - The other class -mostly- the Low Level Class will inherit from this abstract class and impement its methods.
+By using this approach we separate the high level code away from low level code and make our project modules independant from each other.
+
