@@ -47,4 +47,5 @@ We should be able to add new functionality without touching the existing code fo
 #### How can I implement this principle in my code ?
   - Abstraction : abstract class Or interfaces.
   - Polymorphism.
+
 ![Open Close Principle Simulation](https://miro.medium.com/max/372/1*gZcKz9sqrZeaIA0NAfY3Rg.png)
